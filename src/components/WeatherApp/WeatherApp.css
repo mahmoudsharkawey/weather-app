@@ -104,11 +104,11 @@
     }
 
     .top-bar input {
-        width: 100%;
-        margin-bottom: 20px;
+        width: 80%;
+        margin-bottom: 10px;
     }
 
-    .search-icon,
+    /* .search-icon, */
     .weather-img,
     .weather-temp,
     .weather-location,
