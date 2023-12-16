@@ -30,7 +30,7 @@ const WeatherApp = () => {
     let data = await res.json();
 
     humidity[0].innerHTML = data.main.humidity + "%";
-    temprature[0].innerHTML = data.main.temp + " °c";
+    temprature[0].innerHTML = data.main.temp + " °";
     wind[0].innerHTML = data.wind.speed + " km/h";
     location[0].innerHTML = data.name;
     
