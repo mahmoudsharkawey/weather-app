@@ -87,7 +87,7 @@ const WeatherApp = () => {
         <img id="cloudy" src={wicon} alt="Cloudy Icon" />
       </div>
       <div className="weather-temp">0</div>
-      <div className="weather-location">country !</div>
+      <div className="weather-location"></div>
       <div className="data-container">
         <div className="element">
           <img className="icon" src={humidity_icon} alt="" srcset="" />
